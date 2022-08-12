@@ -1,0 +1,32 @@
+{
+  "name": "cryptotest",
+  "version": "1.0.0",
+  "description": "test crypto module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcturus91/myCryptoDemo.git"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "arturo barrantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcturus91/myCryptoDemo/issues"
+  },
+  "homepage": "https://github.com/arcturus91/myCryptoDemo#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "graphql-tools": "^8.3.3",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
